@@ -1,3 +1,23 @@
-{"id":1089,"name":"Jithesh","accounts":[{"account1" : 20000, "accountName": "Kotak Bank"}, {"account2" : 3000, "accountName": "Sbi Bank"}
-  ]
-  ,"salary":22000,"expense":{"food":2800,"travel":1800,"recharge":300,"rent":3000,"loan":5351,"other":"500"}}
+{
+  "id": 1089,
+  "name": "Jithesh",
+  "accounts": [
+    {
+      "account1": 20000,
+      "accountName": "Kotak Bank"
+    },
+    {
+      "account2": 3000,
+      "accountName": "Sbi Bank"
+    }
+  ],
+  "salary": 22000,
+  "expense": {
+    "food": 2800,
+    "travel": 1800,
+    "recharge": 300,
+    "rent": 3000,
+    "loan": 5351,
+    "other": "500"
+  }
+}
