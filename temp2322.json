@@ -1,0 +1,55 @@
+[{
+    "_embedded" : {
+      "users" : [ {
+        "firstName" : "Adam",
+        "lastName" : "Thomas",
+        "email" : "adma.thomas@example.com",
+        "_links" : {
+          "self" : {
+            "href" : "http://localhost:8080/api/users/1"
+          },
+          "user" : {
+            "href" : "http://localhost:8080/api/users/1"
+          },
+          "role" : {
+            "href" : "http://localhost:8080/api/users/1/role"
+          }
+        }
+      } ]
+    },
+    "_links" : {
+      "self" : {
+        "href" : "http://localhost:8080/api/users"
+      }
+    }
+  },
+  {
+    "_embedded" : {
+      "users" : [ {
+        "name" : "Admin",
+        "_links" : {
+          "self" : {
+            "href" : "http://localhost:8080/api/roles/1"
+          },
+          "user" : {
+            "href" : "http://localhost:8080/api/roles/1"
+          }
+        }
+      },{
+        "name" : "Developer",
+        "_links" : {
+          "self" : {
+            "href" : "http://localhost:8080/api/roles/2"
+          },
+          "user" : {
+            "href" : "http://localhost:8080/api/roles/2"
+          }
+        }
+      } ]
+    },
+    "_links" : {
+      "self" : {
+        "href" : "http://localhost:8080/api/roles"
+      }
+    }
+  }]
